@@ -1,26 +1,49 @@
-body{
-    background-color:dimgray;
+body {
+    background-color: dimgray;
 }
-.container{
+
+.container {
     text-align: center;
 }
-.dice{
+
+.dice {
     display: inline-block;
     text-align: center;
     margin-left: 30px;
 }
+
 h1 {
     margin: 20px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
     font-size: 8rem;
     color: #4ECCA3;
-  }
-  p {
+}
+
+p {
     font-size: 2rem;
     color: #4ECCA3;
     font-family: 'Indie Flower', cursive;
-  }
-img{
+}
+
+img {
     size: 80%;
-}  
+}
+
+@media only screen and (max-width :620px) {
+
+    h1 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    img {
+        width: 80%;
+        height: 40%;
+    }
+
+    
+    p{
+        margin: 0px;
+    }
+}
